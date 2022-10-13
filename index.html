@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="daysell06.github.io/style.css">
-        <title>First js Site testing</title>
-    </head>
-    <body>
-        <h1>Hello!</h1>
-        <script type="text/javascript" src="/daysell06.github.io/testmain.js">
-        </script>
-    </body>
+<head>
+    <link rel="stylesheet" href="daysell06.github.io/style.css">
+    <title>First js Site testing</title>
+</head>
+<body>
+   <h1>Hello!</h1>
+   <button type"button" onClick="testfunct()"></button>
+   <script>
+   function testfunct(name) {
+   if (name !== null) { 
+       return (`Hello ${name}!`);
+   } 
+   else {
+       return ('Hello Stranger');
+   }}
+   alert(testfunct(n))
+     </script>
+</body>
 </html>
