@@ -7,12 +7,11 @@
 <body>
     <h1>Welcome to Website</h1>
     <label for="username">Username:</label>
-    <input type="text" id="username" user="Username" placeholder="enter username">
     <script>
-    let userN = document.getElementById("username");
-    console.log('Javascript running');
+    console.log('Javascript running');    
+    let user = prompt('Username:', '');
     window.onload = function() {
-        document.getElementById("printSpace").innerHTML = userN;
+        document.getElementById("printSpace").innerHTML = user;
     }
     </script>
     <a id="printSpace" href="daysell06.github.io/index.html"></a>
